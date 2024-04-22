@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto Mono;
+  line-height: 120%;
+  background: rgb(253, 251, 245);
+  padding: 0 48px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 36px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.page-btn {
+  background: rgb(25, 25, 25);
+  color: rgb(253, 251, 245);
+  border-radius: 6px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+}
+
+.footer-ment {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+}
