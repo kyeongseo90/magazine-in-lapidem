@@ -101,6 +101,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   margin: 30px;
+  justify-content: space-between;
 }
 
 .black-button {
