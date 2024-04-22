@@ -9,13 +9,14 @@
 /* body */
 body {
   font-family: Pretendard-Regular;
-  padding: 10px;
+  /* padding: 20px; */
   background-color: rgb(253, 251, 245);
+  border: 1px solid #000;
+  margin: 12px;
 }
 
 .page-wrapper {
-  padding: 48px;
-  border: 3px solid #000;
+  margin: 2.5%;
 }
 
 
@@ -27,7 +28,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 64px 0px 64px 0px;
+  /* padding: 64px 0px 64px 0px; */
+  margin:10px;
 }
 
 .head-title {
@@ -39,9 +41,16 @@ body {
 
 .section-title {
   font-weight: 600;
+  font-size: 400%;
+  margin-block-start: 5px;
+  margin-block-end: 15px;
+}
+
+.section-title-2 {
+  font-weight: 600;
   font-size: 300%;
-  margin-block-start: 16px;
-  margin-block-end: 16px;
+  margin-block-start: 5px;
+  margin-block-end: 15px;
 }
 
 .section-hero img {
@@ -50,35 +59,14 @@ body {
 }
 
 
-.hero #container {
-  /* Container */
-  position: static;
-  width: 1784px;
-  height: 725px;
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0px;
-
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  /* [margin]: 48px 0px; */
-}
-
 /* VALUE */
 
 .value-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 2fr;
   flex-direction: row;
   /* flex: 2 1 30%; */
-  border-bottom: #000 1.5px solid;
+  border-bottom: #000 1px solid;
   margin:10px;
 }
 
@@ -89,12 +77,8 @@ body {
   margin:10px;
 }
 
-.value-content-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 10px;
+#add-border-bottom {
+  border-bottom: #000 1px solid;
 }
 
 .value-title {
@@ -104,7 +88,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 30px;
+  margin: 30px 30px 30px 0px; 
+  justify-content: space-between;
 }
 
 .black-button {
@@ -118,14 +103,23 @@ body {
 }
 
 .value-content {
-  border-left:#000 1.5px solid;
+  border-left:#000 1px solid;
   margin-bottom: 20px;
+}
+
+.value-content-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0 0 20px;
+  padding-bottom: 10px;
 }
 
 .value-content-horizontal img {
   width: 40px;
   height: auto;
-  margin: 0 40px;
+  margin-right: 20px;
 }
 
 .value-subtitle {
@@ -135,71 +129,107 @@ body {
 
 .value-description {
   font-size: 13px;
+  line-height: 150%;
 }
 
-/* Section Team Member */
+/* ---------------Section OUR TEAM & Team Member--------------- */
+
+.section-team {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  border-bottom: #000 1px solid;
+  margin:10px;
+}
 
 .our-team {
-  /* Grid */
-  position: static;
-  width: 530px;
-  height: 870.5px;
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0px;
-
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  /* [margin]: 0px 48px; */
+  margin: 30px 0px 30px 0px; 
+  padding-right: 30px;
+  border-right: #000 1px solid;
 }
 
 .team-members-vertical {
-  /* Grid */
-  position: static;
-  width: 1157px;
-  height: 870.5px;
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  /* [margin]: 0px 48px; */
+  display: grid;
+  margin: 30px 0px;
 }
 
 .team-members-horizontal {
-  /* Grid */
-  position: static;
-  width: 1157px;
-  height: 411.25px;
-  /* 자동 레이아웃 */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  /* [margin]: 48px 0px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* section - OUR TEAM */
-.team-member-each img {
-  /* Image */
+
+.section-title-smaller {
+  font-weight: 600;
+  font-size: 220%;
+  margin-block-start: 6px;
+  margin-block-end: 6px;
 }
 
+.section-subtitle-smaller {
+  font-weight: 100;
+  font-size: 80%;
+}
+
+.team-member-each {
+  padding: 0px 20px;
+  margin: 10px 0px;
+  overflow: hidden;
+}
+
+#right-border {
+  border-right: #000 1px solid;
+}
+
+.team-member-each img {
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 5/3;
+}
+
+.team-member-each .name {
+  font-size: 15px;
+  font-family: Pretendard-Regular;
+  
+  margin-block-start: 2px;
+  margin-block-end: 0px;
+}
+
+.team-member-each .description {
+  font-size: 8px;
+  font-family: Roboto Mono;
+  
+  margin-block-start: 2px;
+  margin-block-end: 0px;
+}
+
+/* ---------------Section CONTACT--------------- */
+
+.section-cta {
+  margin:10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 30px 0px;
+}
+
+.contact img {
+  width: 50px;
+  height: auto;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+
+  border-left: #000 1px solid;
+}
+.contact-details p {
+  margin: 0px;
+  line-height: 150%;
+}
