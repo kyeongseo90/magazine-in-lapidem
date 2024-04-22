@@ -155,3 +155,16 @@ body {
   font-size: 80px;
   margin: auto;
 }
+
+.title-large {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.contactdes {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
