@@ -168,3 +168,54 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.newstt {
+  font-weight: 500;
+  line-height: 110%;
+  font-size: 80px;
+  margin: 0;
+}
+
+#seebtn {
+  font-family: "Roboto Mono";
+  width: fit-content;
+  padding: 0 16px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid;
+  background: transparent;
+  line-height: 100%;
+  margin-right: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 56px;
+  padding: 48px 0;
+}
+
+.newsbox {
+  & img {
+    border-radius: 8px;
+    width: 100%;
+  }
+}
+
+#nb1 {
+  padding-right: 36px;
+  margin-right: 12px;
+  border-right: 1px solid;
+}
+
+#nb2 {
+  padding: 0 24px;
+}
+
+#nb3 {
+  padding-left: 36px;
+  margin-left: 12px;
+  border-left: 1px solid;
+}
