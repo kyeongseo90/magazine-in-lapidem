@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* body */
+body {
+  font-family: Pretendard-Regular;
+  padding: 10px;
+  background-color: rgb(253, 251, 245);
+}
+
+.page-wrapper {
+  padding: 48px;
+  border: 3px solid #000;
+}
+
+
+/* Section HERO */
+
+.section-hero {
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 0px 64px 0px;
+}
+
+.head-title {
+  font-family: Roboto Mono;
+  font-size: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 300%;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+
+.section-hero img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+.hero #container {
+  /* Container */
+  position: static;
+  width: 1784px;
+  height: 725px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* [margin]: 48px 0px; */
+}
+
+/* VALUE */
+
+.value-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  flex-direction: row;
+  /* flex: 2 1 30%; */
+  border-bottom: #000 1.5px solid;
+  margin:10px;
+}
+
+.value-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:10px;
+}
+
+.value-content-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.value-title {
+  /* Grid */
+  position: static;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+}
+
+.black-button {
+  background-color: black;
+  color:aliceblue;
+  border-radius: 5px;
+}
+
+.black-button span {
+  margin: 15px 0px;
+}
+
+.value-content {
+  border-left:#000 1.5px solid;
+  margin-bottom: 20px;
+}
+
+.value-content-horizontal img {
+  width: 40px;
+  height: auto;
+  margin: 0 40px;
+}
+
+.value-subtitle {
+  margin-block-start: 0px;
+  font-weight: 200;
+}
+
+.value-description {
+  font-size: 13px;
+}
+
+/* Section Team Member */
+
+.our-team {
+  /* Grid */
+  position: static;
+  width: 530px;
+  height: 870.5px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  /* [margin]: 0px 48px; */
+}
+
+.team-members-vertical {
+  /* Grid */
+  position: static;
+  width: 1157px;
+  height: 870.5px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* [margin]: 0px 48px; */
+}
+
+.team-members-horizontal {
+  /* Grid */
+  position: static;
+  width: 1157px;
+  height: 411.25px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* [margin]: 48px 0px; */
+}
+
+/* section - OUR TEAM */
+.team-member-each img {
+  /* Image */
+}
+
