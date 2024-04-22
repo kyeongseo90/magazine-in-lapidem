@@ -1,10 +1,260 @@
 <!DOCTYPE html>
 <html lang="ko">
- <head>
-  <meta charset="utf-8">
-  <title>Front Page</title>
- </head>
- <body>
-  <h1>Front Page</h1>
-  <p>Welcome to the front page!</p>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Front Page</title>
+    <link rel="stylesheet" href="./css/frontpage.css" />
+  </head>
+  <body>
+    <iframe
+      src="header.html"
+      width="100%"
+      height="100%"
+      frameborder="0"
+    ></iframe>
+    <!-- 여기가 몸통부분 -->
+    <div class="flex container">
+      <div>
+        <p class="title-large">
+          We are a <br />digital agency from <br />Lisbon
+        </p>
+        <p class="front-des">
+          Elevating brands through creative digital <br />solutions, proudly
+          representing Lisbon's vibrant <br />innovation.
+        </p>
+        <img
+          src="../assets/diamond.svg"
+          alt="도형1"
+          style="margin-top: 60px"
+          width="40px"
+        />
+      </div>
+      <div id="front1">
+        <img src="../assets/front1.svg" alt="이미지1" />
+      </div>
+    </div>
+    <div class="flex container client">
+      <span>OUR CLIENTS</span>
+      <div style="border-right: 1px solid; height: 80px"></div>
+      <img src="../assets/SuperFood.svg" alt="" />
+      <img src="../assets/CreativeStudio.svg" alt="" />
+      <img src="../assets/InMotion.svg" alt="" />
+      <img src="../assets/Abstract.svg" alt="" />
+      <img src="../assets/VisionStudio.svg" alt="" />
+      <img src="../assets/InVision.svg" alt="" />
+    </div>
+    <div class="grid container">
+      <div style="border-right: 1px solid">
+        <p>WHAT WE DO</p>
+      </div>
+      <div>
+        <div class="half" style="border-bottom: 1px solid; margin-left: 24px">
+          <div
+            class="flex dobox"
+            style="align-items: start; border-right: 1px solid; padding-left: 0"
+          >
+            <img src="../assets/Vector1.svg" alt="" width="50px" />
+            <div>
+              <p class="dotitle">BRANDING</p>
+              <p class="dodes">
+                We craft compelling brand identities that leave a lasting
+                impression.
+              </p>
+            </div>
+          </div>
+          <div class="flex dobox" style="align-items: start">
+            <img src="../assets/Vector2.svg" alt="" width="50px" />
+            <div>
+              <p class="dotitle">DESIGN</p>
+              <p class="dodes">
+                Innovative and aesthetic designs that bring your ideas to life.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="half" style="margin-left: 24px">
+          <div
+            class="flex dobox"
+            style="align-items: start; border-right: 1px solid; padding-left: 0"
+          >
+            <img src="../assets/Vector3.svg" alt="" width="50px" />
+            <div>
+              <p class="dotitle">VIDEO</p>
+              <p class="dodes">
+                Captivating visual storytelling that engages and resonates with
+                your audience.
+              </p>
+            </div>
+          </div>
+          <div class="flex dobox" style="align-items: start">
+            <img src="../assets/dia.svg" alt="" width="50px" />
+            <div>
+              <p class="dotitle">CONTENT</p>
+              <p class="dodes">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid container">
+      <div style="border-right: 1px solid">
+        <p class="front-title">FEATURED WORK</p>
+        <p class="front-des">
+          Showcasing our standout projects that blend creativity, strategy, and
+          cutting-edge design.
+        </p>
+        <button class="btn" style="margin-top: 48px">SEE ALL WORK</button>
+      </div>
+      <div>
+        <div class="bigimgbox">
+          <img src="../assets/front2.svg" alt="이미지2" width="100%" />
+          <p>Dancing Stars</p>
+        </div>
+        <div class="img4">
+          <div class="smimgbox" style="border-right: 1px solid">
+            <img src="../assets/front3.svg" alt="이미지3" width="100%" />
+            <p>Enjoy Silence</p>
+          </div>
+          <div class="smimgbox">
+            <img src="../assets/front4.svg" alt="이미지4" width="100%" />
+            <p>Pure Vision</p>
+          </div>
+          <div class="smimgbox" style="border-right: 1px solid">
+            <img src="../assets/front5.svg" alt="이미지5" width="100%" />
+            <p>Boring Brand</p>
+          </div>
+          <div class="smimgbox">
+            <img src="../assets/front6.svg" alt="이미지6" width="100%" />
+            <p>New Culture</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="regrid container">
+      <div style="border-right: 1px solid">
+        <p id="worktitle">HOW WE WORK</p>
+        <p class="front-title">
+          We help our clients <br />
+          succeed with innovative <br />strategies.
+        </p>
+        <img src="../assets/dia.svg" alt="다이아" width="70px" />
+      </div>
+      <div id="workdes">
+        <p class="front-des">
+          Through careful analysis, creative thinking, and a deep understanding
+          of their goals, we empower businesses to surpass expectations and
+          thrive in today's dynamic and competitive landscape.
+        </p>
+        <button class="btn">OUT SERVICES</button>
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="valuett">OUR VALUES</h1>
+    </div>
+    <div class="half container">
+      <div id="valueimgbox">
+        <img
+          src="../assets/studio-hero.svg"
+          alt="이미지7"
+          width="100%"
+          style="border-radius: 12px"
+        />
+      </div>
+      <div>
+        <div class="valuebox" style="border-bottom: 1px solid">
+          <img src="../assets/01.svg" alt="01" />
+          <div style="width: 90%">
+            <p class="valuetitle">VISION</p>
+            <p class="valuedes">
+              Our relentless pursuit of a shared vision fuels our creativity and
+              propels us forward. With clarity and foresight, we craft
+              strategies that align with our clients' goals and aspirations,
+              transforming their dreams into reality and shaping a future worth
+              embracing.
+            </p>
+          </div>
+        </div>
+        <div class="valuebox" style="border-bottom: 1px solid">
+          <img src="../assets/02.svg" alt="02" />
+          <div style="width: 90%">
+            <p class="valuetitle">INNOVATION</p>
+            <p class="valuedes">
+              Innovation is at the core of everything we do. We embrace
+              curiosity, explore uncharted territories, and challenge the status
+              quo. By pushing boundaries and thinking outside the box, we create
+              groundbreaking solutions that disrupt industries and inspire
+              audiences.
+            </p>
+          </div>
+        </div>
+        <div class="valuebox">
+          <img src="../assets/03.svg" alt="03" />
+          <div style="width: 90%">
+            <p class="valuetitle">CONNECTION</p>
+            <p class="valuedes">
+              We believe in the power of connection. We strive to build bridges
+              between brands and their audiences, fostering genuine and lasting
+              relationships. Through compelling storytelling and meaningful
+              interactions, we create experiences that evoke emotions,
+              strengthen bonds, and cultivate trust, ultimately turning
+              customers into brand advocates.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="regrid container">
+      <div style="border-right: 1px solid">
+        <p>CONTACT</p>
+        <h1 class="title-large">
+          LET'S BRING YOUR <br />BRAND TO THE NEXT <br />LEVEL
+        </h1>
+        <img
+          src="../assets/Vector2.svg"
+          alt="화살표"
+          style="margin-top: 48px"
+        />
+      </div>
+      <div class="contactdes">
+        <p class="front-des" style="font-size: 24px">
+          Together, let's elevate your brand to new heights by unleashing its
+          full potential and captivating your target audience.
+        </p>
+        <button class="btn">GET IN TOUCH</button>
+      </div>
+    </div>
+    <div class="flex container">
+      <h1 class="newstt">LATEST NEWS</h1>
+      <button id="seebtn">SEE ALL</button>
+    </div>
+    <div class="grid3">
+      <div class="newsbox" id="nb1">
+        <img src="../assets/front7.svg" alt="이미지7" />
+        <p class="newtitle">BRANDING, DESIGN</p>
+        <p class="newdes">
+          Things to Look for When Comparing Branding Alternatives
+        </p>
+      </div>
+      <div class="newsbox" id="nb2">
+        <img src="../assets/front8.svg" alt="이미지8" />
+        <p class="newtitle">BRANDING, DESIGN</p>
+        <p class="newdes">5 Stand-out Features of Branding You Should Know</p>
+      </div>
+      <div class="newsbox" id="nb3">
+        <img src="../assets/front9.svg" alt="이미지9" />
+        <p class="newtitle">BRANDING, DESIGN</p>
+        <p class="newdes">Branding: What Real Customers Have to Say</p>
+      </div>
+    </div>
+    <!-- 몸통부분 끝 -->
+    <iframe
+      src="footer.html"
+      width="100%"
+      height="500px"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
