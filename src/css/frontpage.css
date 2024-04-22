@@ -233,3 +233,28 @@ body {
   line-height: 100%;
   letter-spacing: 0.5px;
 }
+
+.dobox {
+  padding: 0 24px;
+  margin: 24px 0;
+  & img {
+    border: 1px dashed gray;
+  }
+
+  & div {
+    margin-left: 24px;
+  }
+}
+
+.dotitle {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.dodes {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+}
