@@ -19,7 +19,9 @@
         <div>
           <span><a href="">WORK</a></span>
           <span><a href="">SERVICES</a></span>
-          <span><a href="">STUDIO</a></span>
+          <span
+            ><a href="javascript:void(0);" onclick="goStudio()">STUDIO</a></span
+          >
           <span><a href="">BLOG</a></span>
           <span><a href="">SHOP</a></span>
           <span
@@ -36,5 +38,10 @@
         <img src="../assets/LNINFB.svg" alt="로고들" width="130" />
       </div>
     </header>
+    <script>
+      function goStudio() {
+        window.parent.goToStudio();
+      }
+    </script>
   </body>
 </html>
