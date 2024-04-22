@@ -219,3 +219,17 @@ body {
   margin-left: 12px;
   border-left: 1px solid;
 }
+
+.newdes {
+  font-weight: 600;
+  line-height: 130%;
+  font-size: 20px;
+  margin: 0;
+}
+
+.newtitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
