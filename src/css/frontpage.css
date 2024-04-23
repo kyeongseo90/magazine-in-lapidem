@@ -73,6 +73,12 @@ body {
   letter-spacing: 1px;
 }
 
+.btn:hover {
+  background: rgb(253, 251, 245);
+  color: rgb(25, 25, 25); 
+  box-shadow: 1px;
+}
+
 .bigimgbox {
   margin: 0 48px;
   border-bottom: 1px solid;

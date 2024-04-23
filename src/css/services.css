@@ -38,6 +38,11 @@ body {
   font-weight: 400;
 }
 
+.whitebtn:hover {
+  background: rgb(25, 25, 25);
+  color: rgb(253, 251, 245);
+}
+
 .blackbtn {
   font-family: "Roboto Mono";
   width: fit-content;
@@ -49,6 +54,11 @@ body {
   line-height: 100%;
   margin-right: 24px;
   letter-spacing: 1px;
+}
+
+.blackbtn:hover {
+  background: rgb(253, 251, 245);
+  color: rgb(25, 25, 25);
 }
 
 .servicetitle {
