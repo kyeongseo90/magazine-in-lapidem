@@ -19,6 +19,11 @@ body {
   border-bottom: 1px solid;
 }
 
+.last {
+  margin: 0 2.5%;
+  padding: 48px 0;
+}
+
 .whitebtn {
   font-family: "Roboto Mono";
   width: fit-content;
@@ -91,4 +96,28 @@ body {
 
 .gap {
   gap: 48px;
+}
+
+.grid2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.contacttitle {
+  font-weight: 500;
+  line-height: 110%;
+  font-size: 60px;
+  margin: 0;
+}
+
+.contactdes {
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
