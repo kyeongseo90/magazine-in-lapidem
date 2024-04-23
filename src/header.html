@@ -18,7 +18,11 @@
       <div class="links">
         <div>
           <span><a href="">WORK</a></span>
-          <span><a href="">SERVICES</a></span>
+          <span
+            ><a href="javascript:void(0);" onclick="goService()"
+              >SERVICES</a
+            ></span
+          >
           <span
             ><a href="javascript:void(0);" onclick="goStudio()">STUDIO</a></span
           >
@@ -41,6 +45,9 @@
     <script>
       function goStudio() {
         window.parent.goToStudio();
+      }
+      function goService() {
+        window.parent.goToService();
       }
     </script>
   </body>
