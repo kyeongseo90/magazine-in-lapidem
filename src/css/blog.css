@@ -67,12 +67,86 @@ body {
 
 /* Blog Seleted */
 
-.value-container {
+.seleted-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 50px 0;
 }
 
 .seleted-poster {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  margin: 7% 0;
 }
+
+#left-side-poster {
+  border-right: #000 1px solid;
+  padding-right: 7%;
+}
+
+#right-side-poster {
+  padding-left: 7%;
+}
+
+.seleted-poster img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 5/3;
+}
+
+
+.selected-title .head-title {
+  font-size: 12px;
+  font-family: Roboto Mono;
+  
+  margin: 5px 0;
+}
+
+.selected-title .poster-title {
+  font-size: 25px;
+  font-family: Pretendard-Regular;
+  font-weight: 600;
+  
+  margin: 5px 0;
+}
+
+/* Posters */
+.posters-vertical {
+  display: grid;
+  margin: 30px 0px;
+}
+
+.posters-horizontal {
+  display: grid;
+  grid-template-columns: 33fr 36fr 33fr;
+  margin: 20px 0;
+}
+
+#middle-side-poster {
+  border-right: #000 1px solid;
+  padding: 0 7%;
+}
+
+.poster-each img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 5/3;
+}
+
+.poster-title .head-title {
+  font-size: 12px;
+  font-family: Roboto Mono;
+  
+  margin: 5px 0;
+}
+
+.poster-title .poster-title {
+  font-size: 18px;
+  font-family: Pretendard-Regular;
+  font-weight: 600;
+  
+  margin: 5px 0;
+}
+
+/* Section - PAGE BUTTON */
