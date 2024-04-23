@@ -73,9 +73,19 @@ body {
   color: rgb(25, 25, 25);
 }
 
+.white-button:hover {
+  background: rgb(25, 25, 25);
+  color: rgb(253, 251, 245);
+}
+
 .black-button {
   background: rgb(25, 25, 25);
   color: rgb(253, 251, 245);
+}
+
+.black-button:hover {
+  background: rgb(253, 251, 245);
+  color: rgb(25, 25, 25);
 }
 
 

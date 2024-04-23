@@ -21,6 +21,11 @@ body {
   letter-spacing: 1px;
 }
 
+.page-btn:hover {
+  background: rgb(253, 251, 245);
+  color: rgb(25, 25, 25); 
+}
+
 .footer-ment {
   display: flex;
   justify-content: space-between;
