@@ -41,6 +41,12 @@ body {
   margin-bottom: 3%;
 }
 
+.section-title-smaller {
+  font-weight: 600;
+  font-size: 300%;
+  margin-bottom: 3%;
+}
+
 .hero-subtitle {
   font-weight: 400;
   font-size: 120%;
@@ -103,7 +109,7 @@ body {
 }
 
 
-.selected-title .head-title {
+.head-title {
   font-size: 12px;
   font-family: Roboto Mono;
   
@@ -142,13 +148,6 @@ body {
   aspect-ratio: 5/3;
 }
 
-.poster-title .head-title {
-  font-size: 12px;
-  font-family: Roboto Mono;
-  
-  margin: 5px 0;
-}
-
 .poster-title .poster-title {
   font-size: 18px;
   font-family: Pretendard-Regular;
@@ -165,7 +164,7 @@ body {
   margin: 30px 0 50px 0;
 }
 
-/* ---------------Section CONTACT--------------- */
+/* ---------------Section Newsletter--------------- */
 
 .section-cta {
   margin:10px;
@@ -196,3 +195,22 @@ body {
   line-height: 150%;
 }
 
+.email-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+
+.contact-details input {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: #000 1px solid;
+  background-color:inherit;
+}
+
+.email-box span{
+  white-space: nowrap;
+}
