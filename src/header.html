@@ -17,7 +17,7 @@
       <img src="../assets/Logo.svg" alt="로고" />
       <div class="links">
         <div>
-          <span><a href="">WORK</a></span>
+          <span><a href="javascript:void(0);" onclick="goHome()">WORK</a></span>
           <span
             ><a href="javascript:void(0);" onclick="goService()"
               >SERVICES</a
@@ -26,7 +26,7 @@
           <span
             ><a href="javascript:void(0);" onclick="goStudio()">STUDIO</a></span
           >
-          <span><a href="">BLOG</a></span>
+          <span><a href="javascript:void(0);" onclick="goBlog()">BLOG</a></span>
           <span><a href="">SHOP</a></span>
           <span
             ><a href=""
@@ -48,6 +48,12 @@
       }
       function goService() {
         window.parent.goToService();
+      }
+      function goBlog() {
+        window.parent.goToBlog();
+      }
+      function goHome() {
+        window.parent.goToHome();
       }
     </script>
   </body>
