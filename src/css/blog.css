@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 iframe {
   margin:0;
@@ -51,17 +46,30 @@ body {
   font-size: 120%;
 }
 
-.white-button {
+.white-button, .black-button {
   font-family: "Roboto Mono";
   width: fit-content;
   padding: 0 6px;
-  height: 35px;
+  /* height: 35px; */
   border-radius: 6px;
+  line-height: 100%;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+  /* margin: 0; */
+  height: 25px;
+  font-size: 10px;
+}
+
+.white-button {
   background: rgb(253, 251, 245);
   color: rgb(25, 25, 25);
-  line-height: 100%;
-  margin-left: 24px;
-  letter-spacing: 1px;
+}
+
+.black-button {
+  background: rgb(25, 25, 25);
+  color: rgb(253, 251, 245);
 }
 
 
@@ -149,4 +157,42 @@ body {
   margin: 5px 0;
 }
 
-/* Section - PAGE BUTTON */
+/* ---------------Section - PAGE BUTTON--------------- */
+
+.button-page-move {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 50px 0;
+}
+
+/* ---------------Section CONTACT--------------- */
+
+.section-cta {
+  margin:10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 30px 0px;
+}
+
+.contact img {
+  width: 50px;
+  height: auto;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+
+  border-left: #000 1px solid;
+}
+.contact-details p {
+  margin: 0px;
+  line-height: 150%;
+}
+
